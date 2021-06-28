@@ -9,5 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="uncheck">#C4C4C4</color>
     <color name="check">#499FDE</color>
+    <color name="loadingbar">#499FDE</color>
 
 </resources>
