@@ -27,6 +27,8 @@ class HomeFragment : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
+
+        (activity as MainActivity).textReset()
     }
 
     override fun onCreateView(

@@ -23,7 +23,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        textReset()
+    }
 
+    fun textReset(){
         retService = clinet().getService().create(API::class.java)
 
         val res: LiveData<Response<DTO>> = liveData {
@@ -39,7 +42,6 @@ class MainActivity : AppCompatActivity() {
             val random_text = findViewById<TextView>(R.id.random_text)
             random_text.text = it.body()?.time + " 에 측정한 온도입니다."
         })
-
     }
 
 
