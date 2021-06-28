@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/proverb"
-        android:layout_width="200dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/nanumsquareroundotfl"
         android:text="명언"
