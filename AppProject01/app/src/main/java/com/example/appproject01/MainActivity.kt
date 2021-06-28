@@ -1,5 +1,6 @@
 package com.example.appproject01
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -56,8 +57,10 @@ class MainActivity : AppCompatActivity() {
     fun transitonNavigationBottomView(bottomView: BottomNavigationView, fragmentManager: FragmentManager){
         bottomView.setOnNavigationItemSelectedListener {
             it.isChecked = true
+            val intent = Intent(this, LoadingActivity::class.java)
             when(it.itemId){
                 R.id.home_menu -> {
+                    startActivity(intent)
                     fragmentManager.beginTransaction().replace(R.id.frameManager, HomeFragment()).commit()
                 }
                 R.id.about_menu -> {
