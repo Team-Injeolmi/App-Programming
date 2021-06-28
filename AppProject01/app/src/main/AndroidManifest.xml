@@ -10,13 +10,10 @@
         android:roundIcon="@mipmap/ic_launcher_dropdown_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppProject01">
-<<<<<<< HEAD
         <activity android:name=".HomeActivity" />
         <activity android:name=".AboutActivity" />
-        <activity android:name=".MainActivity">
-=======
+        <activity android:name=".MainActivity"/>
         <activity android:name=".IntroActivity">
->>>>>>> 646fcafee57077a3b54ac8ec4f1dcecd7d8abca9
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
