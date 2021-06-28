@@ -25,7 +25,7 @@
         android:fontFamily="@font/nanumsquareroundotfb"
         android:text="지금 한강은,"
         android:textColor="#499FDE"
-        android:textSize="14sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -38,7 +38,7 @@
         android:fontFamily="@font/nanumsquareroundotfb"
         android:text="몇 도 일까요?"
         android:textColor="#000000"
-        android:textSize="14sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text1" />
